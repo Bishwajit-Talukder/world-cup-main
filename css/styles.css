@@ -6,30 +6,36 @@ h1 {
     font-size: 80px;
 }
 
-.header {
-    display: flex;
+.container {
+    height: 100vh;
+    width: 90%;
     align-items: center;
     background-color: black;
     color: white;
-    margin-top: 20px
+    margin: 50px 30px 50px 50px;
+    display: flex;
 }
 
-.header>div {
-    align-items: center;
-}
 
-.half-width {
+.text {
+    height: 80%;
     width: 50%;
-    padding: auto;
-    margin-left: 15px;
-    margin-top: 20px;
+    padding: 5px 5px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: black;
 
 
+}
+
+.image {
+    height: 80%;
+    width: 50%;
 }
 
 
 .link-button {
     text-decoration: none;
-    background-color: coral;
+    background-color: red;
     padding: 5px 20px;
 }
